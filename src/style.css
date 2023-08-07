@@ -1,3 +1,58 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Add custom styles */
+/* For simplicity, this will be inline styles, but in a real project, you should use separate CSS files */
+
+/* Center the form on the page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f4f6;
+}
+
+/* Form container */
+.container {
+  width: 400px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Input styles */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Button styles */
+.button {
+  width: 100%;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Success message */
+.success {
+  color: #10b981;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Add Tailwind CSS utility classes */
+.text-center {
+  text-align: center;
+}
